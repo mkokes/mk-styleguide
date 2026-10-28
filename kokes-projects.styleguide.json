@@ -1,0 +1,267 @@
+{
+  "app": "styleguide-generator",
+  "version": 1,
+  "guide": {
+    "id": "5f324596-cd7d-4f16-a8dd-024c9ab9824d",
+    "createdAt": 1793217134210,
+    "updatedAt": 1793217134210,
+    "basics": {
+      "name": "Kokes Projects",
+      "description": "The shared visual system for Kokes Projects: small web apps, developer tools and personal sites. Neon lime on charcoal and white, set in Poppins and Inter.",
+      "audience": "Developers and tech-savvy people using small web apps, tools and side projects.",
+      "personality": [
+        "Bold",
+        "Techy",
+        "Confident",
+        "Direct"
+      ],
+      "voice": "Direct, concise and developer-friendly. Lead with the point, use technical terms when they are the most precise word, and put code in monospace. Dry humor is welcome in empty states and 404 pages, never in errors.",
+      "writingDo": [
+        "Lead with the point and keep sentences short",
+        "Use technical terms when they are the most precise word",
+        "Format code, commands, keys and file names in monospace",
+        "Say what went wrong and how to fix it in error messages"
+      ],
+      "writingDont": [
+        "Use marketing hype or superlatives",
+        "Use exclamation marks",
+        "Joke in error messages or destructive confirmations",
+        "Over-explain basics to a technical audience"
+      ]
+    },
+    "colors": {
+      "base": {
+        "primary": "#BAFF39",
+        "secondary": "#6E6E6E",
+        "accent": "#BAFF39",
+        "neutral": "#6E6E6E",
+        "success": "#16A34A",
+        "warning": "#D97706",
+        "danger": "#DC2626",
+        "info": "#2563EB"
+      },
+      "overrides": {},
+      "roles": {
+        "light": {
+          "bg": "white",
+          "surface": "neutral-50",
+          "text": "neutral-950",
+          "textMuted": "neutral-600",
+          "border": "neutral-200",
+          "primary": "primary-100",
+          "onPrimary": "neutral-950",
+          "link": "primary-700",
+          "success": "success-700",
+          "warning": "warning-700",
+          "danger": "danger-600",
+          "info": "info-700"
+        },
+        "dark": {
+          "bg": "neutral-950",
+          "surface": "neutral-900",
+          "text": "neutral-50",
+          "textMuted": "neutral-300",
+          "border": "neutral-800",
+          "primary": "primary-100",
+          "onPrimary": "neutral-950",
+          "link": "primary-100",
+          "success": "success-400",
+          "warning": "warning-400",
+          "danger": "danger-400",
+          "info": "info-400"
+        }
+      }
+    },
+    "typography": {
+      "heading": {
+        "name": "Poppins",
+        "source": "google",
+        "weights": [
+          600,
+          700
+        ],
+        "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif"
+      },
+      "body": {
+        "name": "Inter",
+        "source": "google",
+        "weights": [
+          400,
+          500,
+          600
+        ],
+        "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif"
+      },
+      "mono": {
+        "name": "JetBrains Mono",
+        "source": "google",
+        "weights": [
+          400,
+          500
+        ],
+        "fallback": "ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "baseSize": 16,
+      "ratio": 1.25,
+      "overrides": {}
+    },
+    "layout": {
+      "spacingBase": 4,
+      "spacingScale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        12,
+        16,
+        24
+      ],
+      "radius": {
+        "none": 0,
+        "sm": 6,
+        "md": 10,
+        "lg": 16,
+        "xl": 24,
+        "full": 9999
+      },
+      "shadow": {
+        "sm": {
+          "y": 1,
+          "blur": 2,
+          "spread": 0,
+          "opacity": 0.05
+        },
+        "md": {
+          "y": 4,
+          "blur": 10,
+          "spread": -2,
+          "opacity": 0.08
+        },
+        "lg": {
+          "y": 12,
+          "blur": 28,
+          "spread": -6,
+          "opacity": 0.12
+        }
+      },
+      "duration": {
+        "fast": 100,
+        "normal": 180,
+        "slow": 280
+      },
+      "easing": {
+        "standard": [
+          0.2,
+          0,
+          0,
+          1
+        ],
+        "enter": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "exit": [
+          0.3,
+          0,
+          1,
+          1
+        ]
+      },
+      "breakpoints": {
+        "sm": 640,
+        "md": 768,
+        "lg": 1024,
+        "xl": 1280
+      }
+    },
+    "logo": {
+      "variants": [],
+      "minSize": "",
+      "clearSpace": "",
+      "misuse": []
+    },
+    "icons": {
+      "library": "Lucide",
+      "style": "outline",
+      "sizes": [
+        16,
+        20,
+        24
+      ],
+      "stroke": 2
+    },
+    "imagery": {
+      "style": "Product screenshots and real UI over stock photography. Crop tight, frame with a 1px border-role outline and radius lg. Dark UI captures pair best with the lime accent."
+    },
+    "components": {
+      "notes": {
+        "button": "Pill-shaped (radius full) for buttons and tags. Primary is a lime fill with near-black text.",
+        "input": "",
+        "card": "Radius lg (16px). Prefer a 1px border over a shadow; use shadow only for floating elements.",
+        "alert": "",
+        "nav": "Mark the current page with the link color and a 2px underline, not color alone."
+      }
+    },
+    "accessibility": {
+      "target": "AA",
+      "focusStyle": "2px solid outline in the link role color, offset 2px",
+      "reducedMotion": true
+    },
+    "rules": {
+      "color": {
+        "do": [
+          "Use lime only as a fill (with near-black text) or as text/icons on dark backgrounds",
+          "Keep lime to a few high-signal elements per screen: the primary action, highlights, active states"
+        ],
+        "dont": [
+          "Put lime text, icons or borders on white or light surfaces; they are unreadable (1.2:1)",
+          "Use lime to mean success; use the success role",
+          "Introduce other brand hues; secondary and accent are the grey and lime scales"
+        ]
+      },
+      "typography": {
+        "do": [
+          "Use Poppins for headings and short display text only; set paragraphs and UI in Inter"
+        ],
+        "dont": [
+          "Use Poppins for body copy or below the lg step"
+        ]
+      },
+      "layout": {
+        "do": [],
+        "dont": []
+      },
+      "logo": {
+        "do": [],
+        "dont": []
+      },
+      "icons": {
+        "do": [
+          "Keep Lucide's default 2px stroke at every size"
+        ],
+        "dont": []
+      },
+      "imagery": {
+        "do": [],
+        "dont": []
+      },
+      "components": {
+        "do": [
+          "Use pill (radius full) buttons and tags; cards and panels use radius lg"
+        ],
+        "dont": []
+      }
+    },
+    "outputs": {
+      "markdown": true,
+      "css": true,
+      "tailwind": "v4",
+      "dtcg": true
+    }
+  }
+}
